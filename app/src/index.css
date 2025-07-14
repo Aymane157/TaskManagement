@@ -1,0 +1,52 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+      font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum";
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+.content {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+    height: 30px;
+    width: 70%;
+  
+}
+
+.renderView-container {
+    padding: 20px;
+   display: inline-flex;
+    flex-direction: row;
+    gap: 20px ;
+
+   
+}
+.p{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: larger;
+  position: absolute;
+  margin-right:50px ;
+  margin-top: 90px;
+}
+.dashcontainer{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,55 @@
+.CardT{
+     background: white;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+            transition: box-shadow 0.2s ease;
+            height: 80%;
+            
+}
+.status{
+    border: 2px transparent;
+    width: 90px;
+    text-align: center;
+   border-radius: 13px;
+    background: coral;
+}
+.calendar{
+    font-size: 15px;
+    
+}
+.status-buttons button:nth-child(1) {
+  background-color: #ff6f61; /* To Do - coral red */
+}
+.status-buttons button:nth-child(2) {
+  background-color: #3498db; /* In Progress - blue */
+}
+.status-buttons button:nth-child(3) {
+  background-color: #2ecc71; /* Done - green */
+}
+
+/* Disabled button style */
+.status-buttons button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+.status-buttons button:hover{
+    cursor: pointer;
+}
+/* Delete button */
+.delete-btn {
+  margin-top: 12px;
+  padding: 6px 16px;
+  background-color: #e74c3c; /* red */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}

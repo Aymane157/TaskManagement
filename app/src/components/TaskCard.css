@@ -1,0 +1,21 @@
+.Tcard{
+    margin-left: 55px;
+    width: 320px;
+    border-radius: 13px;
+     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.TaskType{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.TaskNumber{
+     margin-left: 15px;
+     position: relative;
+}
+.TaskNumberProj{
+   
+     position: relative;
+     display: flex;
+     justify-content: space-around;
+     
+}
